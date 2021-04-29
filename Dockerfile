@@ -1,5 +1,5 @@
 # Dockerfile development version
-FROM ruby:2.7.2 as drkiq-development
+FROM ruby:2 as drkiq-development
 
 ARG USER_ID
 ARG GROUP_ID
