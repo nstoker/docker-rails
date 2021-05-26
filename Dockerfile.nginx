@@ -1,6 +1,6 @@
 # Dockerfile.nginx
 
-FROM nginx:latest
+FROM nginx:1.21
 COPY reverse-proxy.conf /etc/nginx/conf.d/reverse-proxy.conf
 EXPOSE 8020
 STOPSIGNAL SIGTERM
